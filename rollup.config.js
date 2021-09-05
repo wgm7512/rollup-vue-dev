@@ -10,7 +10,7 @@ import resolve from "rollup-plugin-node-resolve";
 import replace from 'rollup-plugin-replace';
 
 
-const NODE_ENV = process.env.NODE_ENV
+const NODE_ENV = process.env.NODE_ENV;
 
 let envPlugins = [];
 
@@ -19,7 +19,7 @@ const isPrd = NODE_ENV === 'production';
 if (isPrd) {
   envPlugins = [
     uglify(),
-  ]
+  ];
 } else {
   envPlugins = [
     livereload(),
@@ -29,7 +29,7 @@ if (isPrd) {
       openPage: '/public/index.html', // 打开的页面
       contentBase: ''
     })
-  ]
+  ];
 }
 
 export default {

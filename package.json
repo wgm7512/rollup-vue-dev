@@ -33,7 +33,7 @@
     "cross-env": "^7.0.3",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^7.17.0",
-    "husky": "^6.0.0",
+    "husky": "^5.0.0",
     "rollup": "^2.56.3",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-clear": "^2.0.7",

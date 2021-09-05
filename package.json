@@ -1,8 +1,8 @@
 {
   "name": "rollup-vue-dev",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "基于 rollup 搭建的 vue 环境",
+  "main": "dist/bundle.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development rollup -c -w",
     "build": "cross-env NODE_ENV=production rollup -c",
@@ -13,9 +13,13 @@
     "type": "git",
     "url": "git+https://github.com/wgm7512/rollup-vue-dev.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "rollup",
+    "vue",
+    "lib"
+  ],
+  "author": "汪贵敏",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/wgm7512/rollup-vue-dev/issues"
   },

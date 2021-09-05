@@ -6,12 +6,8 @@
   "scripts": {
     "start": "cross-env NODE_ENV=development rollup -c -w",
     "build": "cross-env NODE_ENV=production rollup -c",
-    "lint": "eslint --ext .js,.vue src "
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
+    "lint": "eslint --ext .js,.vue src",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -33,7 +29,7 @@
     "cross-env": "^7.0.3",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^7.17.0",
-    "husky": "^5.0.0",
+    "husky": "^7.0.2",
     "rollup": "^2.56.3",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-clear": "^2.0.7",

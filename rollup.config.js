@@ -43,14 +43,14 @@ export default {
       targets: ['dist'],
       watch: true,
     }),
-    replace({
-      'process.env.NODE_ENV': JSON.stringify(NODE_ENV),
-    }),
-    resolve(),
     vue({
       css: true,
       compileTemplate: true
     }),
+    replace({
+      'process.env.NODE_ENV': JSON.stringify(NODE_ENV),
+    }),
+    resolve(),
     commonjs(),
     babel({
       exclude: 'node_modules/**' // 只编译我们的源代码

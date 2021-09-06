@@ -8,8 +8,8 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .hello {
-  color: #1089ff;
+  color: #222;
 }
 </style>
